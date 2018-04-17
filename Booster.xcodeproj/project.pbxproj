@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		041541A320866214004C869F /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041541A220866214004C869F /* MenuViewController.swift */; };
 		04E5022F2079A305000C2D51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E5022E2079A305000C2D51 /* AppDelegate.swift */; };
 		04E502312079A305000C2D51 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E502302079A305000C2D51 /* ViewController.swift */; };
 		04E502342079A306000C2D51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E502322079A306000C2D51 /* Main.storyboard */; };
@@ -14,6 +15,11 @@
 		04E502392079A306000C2D51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E502372079A306000C2D51 /* LaunchScreen.storyboard */; };
 		04E502442079A30B000C2D51 /* BoosterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E502432079A30B000C2D51 /* BoosterTests.swift */; };
 		04E5024F2079A30B000C2D51 /* BoosterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E5024E2079A30B000C2D51 /* BoosterUITests.swift */; };
+		04E502732083989F000C2D51 /* InvestorTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E502722083989F000C2D51 /* InvestorTypeViewController.swift */; };
+		04E50275208398B4000C2D51 /* QuestionaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E50274208398B4000C2D51 /* QuestionaryViewController.swift */; };
+		04E50277208398C7000C2D51 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E50276208398C7000C2D51 /* ScoreViewController.swift */; };
+		04E50279208398F3000C2D51 /* SubmitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E50278208398F3000C2D51 /* SubmitViewController.swift */; };
+		04E5027B2083990C000C2D51 /* SubmitMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E5027A2083990C000C2D51 /* SubmitMessageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		041541A220866214004C869F /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		04E5022B2079A304000C2D51 /* Booster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Booster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E5022E2079A305000C2D51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04E502302079A305000C2D51 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,11 @@
 		04E5024A2079A30B000C2D51 /* BoosterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoosterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E5024E2079A30B000C2D51 /* BoosterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoosterUITests.swift; sourceTree = "<group>"; };
 		04E502502079A30B000C2D51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E502722083989F000C2D51 /* InvestorTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestorTypeViewController.swift; sourceTree = "<group>"; };
+		04E50274208398B4000C2D51 /* QuestionaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionaryViewController.swift; sourceTree = "<group>"; };
+		04E50276208398C7000C2D51 /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+		04E50278208398F3000C2D51 /* SubmitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitViewController.swift; sourceTree = "<group>"; };
+		04E5027A2083990C000C2D51 /* SubmitMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitMessageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +109,8 @@
 		04E5022D2079A304000C2D51 /* Booster */ = {
 			isa = PBXGroup;
 			children = (
+				04E5025C2079BA7D000C2D51 /* modules */,
 				04E5022E2079A305000C2D51 /* AppDelegate.swift */,
-				04E502302079A305000C2D51 /* ViewController.swift */,
 				04E502322079A306000C2D51 /* Main.storyboard */,
 				04E502352079A306000C2D51 /* Assets.xcassets */,
 				04E502372079A306000C2D51 /* LaunchScreen.storyboard */,
@@ -123,6 +135,60 @@
 				04E502502079A30B000C2D51 /* Info.plist */,
 			);
 			path = BoosterUITests;
+			sourceTree = "<group>";
+		};
+		04E5025C2079BA7D000C2D51 /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				04E502622079BAC8000C2D51 /* view */,
+				04E502612079BAC2000C2D51 /* route */,
+				04E5025F2079BAB3000C2D51 /* presenter */,
+				04E5025E2079BA9B000C2D51 /* interector */,
+				04E5025D2079BA8D000C2D51 /* entity */,
+			);
+			path = modules;
+			sourceTree = "<group>";
+		};
+		04E5025D2079BA8D000C2D51 /* entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		04E5025E2079BA9B000C2D51 /* interector */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = interector;
+			sourceTree = "<group>";
+		};
+		04E5025F2079BAB3000C2D51 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		04E502612079BAC2000C2D51 /* route */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = route;
+			sourceTree = "<group>";
+		};
+		04E502622079BAC8000C2D51 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				04E502302079A305000C2D51 /* ViewController.swift */,
+				04E502722083989F000C2D51 /* InvestorTypeViewController.swift */,
+				04E50274208398B4000C2D51 /* QuestionaryViewController.swift */,
+				04E50276208398C7000C2D51 /* ScoreViewController.swift */,
+				04E50278208398F3000C2D51 /* SubmitViewController.swift */,
+				04E5027A2083990C000C2D51 /* SubmitMessageViewController.swift */,
+				041541A220866214004C869F /* MenuViewController.swift */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +259,7 @@
 				TargetAttributes = {
 					04E5022A2079A303000C2D51 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					04E5023E2079A30B000C2D51 = {
@@ -259,8 +326,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04E5027B2083990C000C2D51 /* SubmitMessageViewController.swift in Sources */,
+				04E50279208398F3000C2D51 /* SubmitViewController.swift in Sources */,
+				04E50277208398C7000C2D51 /* ScoreViewController.swift in Sources */,
 				04E502312079A305000C2D51 /* ViewController.swift in Sources */,
+				041541A320866214004C869F /* MenuViewController.swift in Sources */,
+				04E50275208398B4000C2D51 /* QuestionaryViewController.swift in Sources */,
 				04E5022F2079A305000C2D51 /* AppDelegate.swift in Sources */,
+				04E502732083989F000C2D51 /* InvestorTypeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,12 +499,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PD52GNNZRR;
 				INFOPLIST_FILE = Booster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Booster.Booster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -441,9 +517,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PD52GNNZRR;
 				INFOPLIST_FILE = Booster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Booster.Booster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
